@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a97a2d9d59.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id="header">
+   <div class="container">
+     <nav>
+        <img src="images/logo.png" class="Logo">
+        <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">My Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+     </nav>
+     <div class="header-text">
+        <p>Software Engineer</p>
+        <h1>Hi,I'm <span>Biswajit</span> Manik</h1>
+        <div class="social-links">
+        <a href="https://www.linkedin.com/in/biswajit-manik-a9b15a327/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/Biswajitmanik"><i class="fa-brands fa-github"></i></a>
+    </div>
+     </div>
+   </div>
+</div>
+<!----------about----->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello! I'm a passionate Python programmer with a knack for problem-solving and a love for coding.To begin my career in a growth-oriented organization where I can apply my knowledge of programming, problem
+solving, and data analysis. I aim to contribute to real-world projects, learn from industry experts, and build strong
+technical and professional skills.</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('internship Experience')"> Internship Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                    <li><span>Python</span><br>Object-Oriented Programming in Python</li>
+                    <li><span>JavaScript</span><br>Web Development</li>
+                    <li><span>HTML & CSS</span><br>Responsive Design</li>
+                    <li><span>MySQL</span><br>Database Management</li>
+
+                </ul>
+            </div>
+            <div class="tab-contents" id="internship Experience">
+                <ul>
+                    <li><span>Sept 2025 - Current</span><br>Python Development Intern at Pinnacle Labs</li>
+                    <li><span>Aug 2025 - Current</span><br>Web Development Intern at Prodigy Infotech</li>
+                    <li><span>Nov 2024 - Dec 2024</span><br>Graphic Design Intern at Inamigos Foundation</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2021</span><br>10th from Saraswati Shishu Vidya Mandir,Jogeswarpur,Puri</li>
+                    <li><span>2023</span><br>12th from Nimapada Autonomous College,Nimapada,Puri</li>
+                    <li><span>2023 - Current</span><br>B.Sc IST from Ravenshaw University,Cuttack</li>
+                </ul>
+            </div>
+            
+            </div>
+
+                
+        </div>
+    </div>
+</div>
+<!----------Projects------------>
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+            <div class="project-col">
+                <img src="images/project2.png"><br>
+                <i class="fa-solid fa-code"></i>
+                <h2>AI Link Pilot</h2>
+                <p>A Python-based AI assistant that takes voice commands to open websites and provide links in a browser, combining speech recognition with web automation for a hands-free browsing experience.</p>
+                <a href="https://github.com/Biswajitmanik/FIRST_PROJECT_PIXEL">Click here to learn more</a>
+            </div>
+            <div class="project-col">
+                <img src="images/project1.png"><br>
+                <i class="fa-solid fa-sun"></i>
+                <h2>Weather App</h2>
+                <p>This project is a weather website that provides real-time weather updates for any city or location worldwide. Users can search for a place and instantly see details like temperature, humidity, wind speed, and conditions (sunny, cloudy, rainy, etc.). The site pulls live data from a weather API and displays it in a simple, user-friendly design. It also includes responsive features, so it works smoothly on both desktop and mobile.</p>
+                <a href="https://github.com/Biswajitmanik/Weather_App">Click here to learn more</a>
+            </div>
+            <div class="project-col">
+                <img src="images/project3.png"><br>
+                <i class="fa-solid fa-briefcase"></i>
+                <h2>Portfolio</h2>
+                <p>A personal portfolio website showcasing my projects, skills, and experience. Built with HTML, CSS, and JavaScript, it features a responsive design and smooth navigation, allowing visitors to easily explore my work and get to know me better.</p>
+                <a href="https://github.com/Biswajitmanik/Portfolio_web">Click here to learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------skills------------>
+<div id="skills" class="skills">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1><br><br>
+        <div class="skills-grid">
+
+          <div class="skill-card">
+            <div class="skill-header">
+          <i class="fa-brands fa-python" style="color:#f4c542"></i>
+          <h3>Python</h3>
+        </div>
+        <div class="progress-bar"><div class="progress python"></div></div>
+        <p class="percentage">90%</p>
+      </div><br>
+
+      <div class="skill-card">
+        <div class="skill-header">
+          <i class="fa-brands fa-html5" style="color:#24bee8"></i>
+          <h3>HTML</h3>
+        </div>
+        <div class="progress-bar"><div class="progress html"></div></div>
+        <p class="percentage">80%</p>
+      </div><br>
+
+      <div class="skill-card">
+        <div class="skill-header">
+          <i class="fa-brands fa-css3-alt" style="color:#a10bdd"></i>
+          <h3>CSS</h3>
+        </div>
+        <div class="progress-bar"><div class="progress CSS"></div></div>
+        <p class="percentage">75%</p>
+      </div><br>
+
+        <div class="skill-card">
+            <div class="skill-header">
+            <i class="fa-brands fa-js" style="color:#edbe05"></i>
+            <h3>JavaScript</h3>
+            </div>
+            <div class="progress-bar"><div class="progress JavaScript"></div></div>
+            <p class="percentage">70%</p>
+        </div><br>
+
+      <div class="skill-card">
+        <div class="skill-header">
+          <i class="fa-solid fa-database" style="color:#08f36a"></i>
+          <h3>MySQL / Databases</h3>
+        </div>
+        <div class="progress-bar"><div class="progress MySQL"></div></div>
+        <p class="percentage">85%</p>
+      </div><br>
+
+      <div class="skill-card">
+        <div class="skill-header">
+          <i class="fa-solid fa-chart-simple" style="color:#f70404"></i>
+          <h3>Data Analytics</h3>
+        </div>
+        <div class="progress-bar"><div class="progress DataAnalytics"></div></div>
+        <p class="percentage">50%</p>
+      </div>
+    </div>
+  </div>
+</div><br>
+<br>
+<br>
+<!----------contact------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>biswajitmanik123456@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91 9348954738</p><br>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/biswajit-manik-a9b15a327/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/BiswajitManik"><i class="fa-brands fa-github"></i></a>
+                </div><br>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div><br>
+    <br>
+    <br>
+    <div class="copyright"> <i class="fa-solid fa-face-smile"></i>Biswajit Manik. </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
